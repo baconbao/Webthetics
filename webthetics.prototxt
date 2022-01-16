@@ -12,7 +12,7 @@ layer {
   }
   image_data_param {
     source: "train_list.txt"
-    root_folder: ".\\data\\"
+    root_folder: "./data/"
     shuffle: 1
     batch_size: 64
     new_height: 192
@@ -31,10 +31,10 @@ layer {
     scale: 0.00390625
   }
   image_data_param {
-    source: "valid_list.txt"
+    source: "./data/baconbao-predict.txt"
     batch_size: 98
     # change the path here to test different occluded images
-    root_folder: ".\\data\\"
+    root_folder: "./data/"
     new_height: 192
     new_width: 256
   }
