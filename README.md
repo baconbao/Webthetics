@@ -1,4 +1,4 @@
-Orininal codes: https://github.com/carrenD/Webthetics
+Orininal model from: https://github.com/carrenD/Webthetics
 
 ## Predict only of Webthetics model
 
